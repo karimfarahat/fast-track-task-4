@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI";
+  color: black;
+  background-color: #f0f0f0;
+}
+p {
+  font-size: 12px;
+}
+.main-container {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-text {
+  margin-top: 25px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.survey-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* SURVEY 1 */
+
+.survey-1 > .card {
+  gap: 20px;
+}
+
+.survey-1 > .card > .img-cont {
+  flex: 15%;
+  padding: 25px 0 25px 25px;
+}
+
+.survey-1 > .card > .card-text {
+  flex: 85%;
+}
+.survey-1 > .card > .card-text > .card-body > .card-body-wrapper > .title {
+  font-size: 18px;
+}
+
+.survey-1 > h4 > span {
+  display: none;
+}
+
+/* SURVEY 2 */
+
+.survey-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.survey-2 > .card {
+  gap: 35px;
+}
+
+.survey-2 > .card > .img-cont {
+  flex: 30%;
+  padding: 0;
+}
+
+.survey-2 > .card > .card-text {
+  flex: 70%;
+  gap: 20px;
+}
+
+.survey-2 > .card > .card-text > .card-body > .card-body-wrapper {
+  gap: 20px;
+}
+.survey-2 > .card > .card-text > .card-body > .card-body-wrapper > .title {
+  font-size: 22px;
+}
+
+.survey-2 {
+  padding: 0 px;
+}
+
+.survey-2 > h4 > span {
+  display: none;
+}
+
+/* SURVEY 3 */
+
+.survey-3 > .card {
+  display: block;
+}
+
+.survey-3 > .card > .img-cont {
+  display: none;
+}
+
+.survey-3 > .card > .card-text {
+  padding: 25px 0 0 25px;
+}
+
+.survey-3 > .card > .card-text > .card-body > .card-body-wrapper > .title {
+  font-size: 18px;
+}
+
+/* SURVEY 4 */
+
+.survey-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.survey-4 > .card {
+  display: block;
+}
+
+.survey-4 > .card > .img-cont {
+  display: none;
+}
+
+.survey-4 > .card > .card-text > .card-body > .card-body-wrapper {
+  gap: 20px;
+}
+
+.survey-4 > .card > .card-text > .card-body > .card-body-wrapper > .title {
+  font-size: 22px;
+}
+
+.survey-4 > .card > .card-text {
+  padding: 0 0 0 25px;
+}
+
+.card h5 {
+  color: #68c0af;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  background-color: #68c0af;
+  color: rgb(255, 248, 239);
+  border: none;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  align-self: flex-end;
+  margin-bottom: 25px;
+}
+.date {
+  color: #737373;
+  align-self: center;
+}
+
+.dp-flex {
+  display: flex;
+}
+.gap-20 {
+  gap: 20px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+
+.flex-15 {
+  flex: 15%;
+}
+.flex-30 {
+  flex: 30%;
+}
+
+.flex-40 {
+  flex: 40%;
+}
+
+.flex-85 {
+  flex: 85%;
+}
+.flex-80 {
+  flex: 80%;
+}
+
+.flex-70 {
+  flex: 70%;
+}
+.flex-90 {
+  flex: 90%;
+}
+
+.flex-stretch {
+  align-items: stretch;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.as-flexend {
+  align-self: flex-end;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.p-30 {
+  padding: 30px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-flexend {
+  justify-content: flex-end;
+}
